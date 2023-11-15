@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/products
+Content-Type: application/json
+
+{"name": "juice", "price": 3.20}
+
+###
+
+GET http://localhost:3001/api/products
+Content-Type: application/json
+
+
